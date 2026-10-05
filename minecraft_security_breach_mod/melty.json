@@ -1,0 +1,25 @@
+{
+  "name": "Minecraft: Security Breach",
+  "tagline": "Survive, craft, and fight through the Pizzaplex in blocky Minecraft style!",
+  "description": "Brings full Minecraft survival mechanics directly into FNAF: Security Breach! Gather materials from environmental objects, craft swords, bows, and barricades, manage hunger, and team up or face off in 2\u20134 player Co-op and Versus modes inside the Mega Pizzaplex.",
+  "games": [
+    "fnaf-security-breach"
+  ],
+  "version": "1.0.0",
+  "license": "MIT",
+  "components": [
+    {
+      "fileName": "MinecraftSecurityBreach_P.pak",
+      "destination": "{game}/fnaf9/Content/Paks/~mods/MinecraftSecurityBreach_P.pak"
+    }
+  ],
+  "multiplayer": {
+    "maxPlayers": 4,
+    "connect": {
+      "address": {
+        "log": "{localappdata}/fnaf9/Saved/Logs/fnaf9.log",
+        "after": "Hosting session at "
+      }
+    }
+  }
+}
